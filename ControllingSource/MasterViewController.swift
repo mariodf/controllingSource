@@ -26,11 +26,11 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
         let addButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "insertNewObject:")
         self.navigationItem.rightBarButtonItem = addButton
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+//
+//    override func didReceiveMemoryWarning() {
+//        super.didReceiveMemoryWarning()
+//        // Dispose of any resources that can be recreated.
+//    }
 
     func insertNewObject(sender: AnyObject) {
         let context = self.fetchedResultsController.managedObjectContext
